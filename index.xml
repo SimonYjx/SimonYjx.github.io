@@ -13,7 +13,18 @@
       <pubDate>Sat, 25 Sep 2021 21:14:00 +0800</pubDate>
       
       <guid>http://example.org/posts/my-first-post/</guid>
-      <description>#这是我的第一篇博客</description>
+      <description>这是我的第一篇博客
+
+1.根据老师录屏的部分，我完成了相关文件的下载和安装，遇到的问题是Github官网打不开，无法注册登陆。
+	1.1一开始我更换了浏览器，但是没有用，甚至Google也打不开
+	1.2我更改了一下网站的防火墙防弹窗设置，希望github能够弹出来，均以失败告终
+	1.3我开始更改使用者权限和IP
+		·站长工具查询DNS：访问 http://tool.chinaz.com/dns/ ，在输入框中填写 github.com查询响应IP
+		·编辑C:\Windows\System32\drivers\etc\hosts文件，将列出的响应IP写入该文件中。由于使用者权限的问题，hosts改写后不能保存，我在系统里把权限重新设置后就可以保存了
+2.解决问题以后，github官网总算是可以上去了（虽然时灵时不灵的但已经可以用了ORZ）
+3.我用相同的办法解决了同学同样无法登陆github官网的问题，而她的电脑就能次次成功翻出去ORZ
+over
+</description>
     </item>
     
   </channel>
